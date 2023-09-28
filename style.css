@@ -1,0 +1,108 @@
+body {
+	background-color: #222;
+	color: #fff;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	margin: 30px 0;
+}
+
+.board {
+	width: 800px;
+	height: 480px;
+	margin: 20px auto;
+}
+
+#game_canvas {
+	background-color: #000;
+	width: 800px;
+	height: 480px;
+	border: 2px solid #fff;
+	border-radius: 20px;
+}
+
+.comment {
+	text-align: center;
+	margin: 20px;
+	font-size: 24px;
+}
+
+.controls {
+	margin: 0 auto;
+	width: 650px;
+	text-align: center;
+	clear: both;
+}
+
+.controls button {
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	margin: 5px;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-size: 14px;
+	float: left;
+}
+
+
+#delete {
+	background-color: #111;
+	color: #666;
+	border: 1px solid #666;
+}
+
+#again {
+	font-size: 20px;	
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+	color: #888;
+}
+
+#again:hover {
+	color: #fff;
+}
+
+#help {
+	color: grey;
+	font-size: 20px;
+	cursor: pointer;
+	letter-spacing: 5px;
+}
+
+#help:hover {
+	color: #fff;
+
+}
+
+.help {
+	display: none;
+	position: absolute;
+	width: 780px;
+	height: 620px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	font-size: 20px;
+	padding: 10px 30px;
+	background-color: #000;
+	border: 2px solid #fff;
+	border-radius: 20px;
+}
+
+#closehelp {
+	position: relative;
+	left: 380px;
+	color: grey;
+	cursor: pointer;
+}
+
+#closehelp:hover {
+	color: #fff;
+}
